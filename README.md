@@ -67,5 +67,4 @@ mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 ```
 
 ## 更新日志
-
 - 2019-9-1 添加动态导航栏
