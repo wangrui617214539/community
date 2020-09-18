@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Jun 27 18:26:49 CST 2020
+org.eclipse.sisu.plexus-0.3.3.pom>nexus-aliyun=
+org.eclipse.sisu.plexus-0.3.3.jar>nexus-aliyun=

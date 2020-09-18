@@ -37,7 +37,7 @@ public class GithubProvider {
         try {
             Response response = client.newCall(request).execute();
             String string = response.body().string();
-            GithubUser githubUser = JSON.parseObject(string, GithubUser.class);
+            GithubUser githubUser = JSON.parseObject(string, GithubUser.class);//返回githubuser对象
             return githubUser;
         } catch (Exception e) {
 //            log.error("getUser error,{}", accessToken, e);
